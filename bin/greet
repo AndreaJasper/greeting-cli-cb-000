@@ -1,5 +1,13 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
+<<<<<<< HEAD
 puts "Hi! I'm HAL, what's your name?"
 name = gets.chomp
 greeting(name)
+=======
+  puts "Hi! I'm HAL, what's your name"
+  name = gets.strip
+
+greeting(name)
+# code your CLI here!
+>>>>>>> a8c004d46caa873592100198c81e8d94d121a47e
